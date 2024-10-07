@@ -1,5 +1,3 @@
-Based on the content of the file, your project implements both the **Quine-McCluskey method** and **Petrick's method** for minimizing Boolean functions. This includes the calculation of the minimized Sum-of-Products (SOP) form, covering intermediate steps such as prime implicant generation and finding the essential prime implicants. Here's a refined README that accurately reflects your implementation:
-
 ---
 
 # Quine-McCluskey and Petrick's Method Boolean Minimization
@@ -60,6 +58,7 @@ This repository contains a C++ implementation of both the **Quine-McCluskey meth
    - **Final SOP Form**: Outputs the minimized Boolean function in the Sum-of-Products (SOP) form.
 
 ## Program Output Example
+ ```bash
 Enter the number of variables: 4
 Enter minterm numbers (-1 for end): 2 3 7 9 11 13 -1
 Enter don't-care term numbers (-1 for end): 1 10 15 -1
@@ -136,6 +135,7 @@ Prime Implicants chart:
 Essential Prime Implicants: -01-, --11, 1--1,
 
 Solution: F = B'C + CD + AD
+  ```
 
 ## Potential Applications
 
@@ -152,6 +152,11 @@ This project successfully implements the Quine-McCluskey method and Petrick’s 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
-![Screenshot 2024-10-07 215141](https://github.com/user-attachments/assets/5ca798db-10e7-440d-a42f-216a5b8863dc)
-![Screenshot 2024-10-07 215121](https://github.com/user-attachments/assets/6c089a97-e91c-4e36-a0ca-398a9caa16db)
-![Screenshot 2024-10-07 215107](https://github.com/user-attachments/assets/91fbb43d-1843-4343-a58a-d98518d38cee)
+![Screenshot 2024-10-07 215107](https://github.com/user-attachments/assets/cfce8753-1d6a-41d5-81be-e327ad520d09)
+![Screenshot 2024-10-07 215121](https://github.com/user-attachments/assets/c5f656fb-e639-45c4-b50b-584f3dde53e7)
+
+![Screenshot 2024-10-07 215141](https://github.com/user-attachments/assets/1bebb908-5bd1-4fe5-9347-6b9197bedfad)
+
+
+
+
